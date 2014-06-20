@@ -1,9 +1,9 @@
 ### README.md for Class Project for Coursera's Getting and Cleaning Data class ###
 
 There are three files:
--README.md (This file)
--CodeBook.md - The CodeBook that describes the layout of the output file HAL_data_smry.txt and it's source files
--run_analysis.R - The R script that takes the source data and creates a tidy data set HAL_data_smry.txt
+- README.md (This file)
+- CodeBook.md - The CodeBook that describes the layout of the output file HAL_data_smry.txt and it's source files
+- run_analysis.R - The R script that takes the source data and creates a tidy data set HAL_data_smry.txt
 
 ### Overview ###
 
