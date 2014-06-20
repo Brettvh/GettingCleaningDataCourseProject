@@ -156,7 +156,7 @@ HAR_data_smry <- ddply(HAR_data_short, c("Subject_Id", "Activity_Desc"), summari
 
 # Create output file
 
-write.table(HAR_data_smry, "./data/HAR_data_smry", row.names=FALSE)
+write.table(HAR_data_smry, "./data/HAR_data_smry.txt", row.names=FALSE)
 
 
 
