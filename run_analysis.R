@@ -11,9 +11,9 @@
 
 # Set working directory and create a "data" subdirectory if it doesn't exist.
 
-setwd("~/My Documents/Education/Coursera - Getting and Cleaning Data/Course Project")
+#setwd("~/My Documents/Education/Coursera - Getting and Cleaning Data/Course Project")
 
-if(!file.exists("./data")){dir.create("./data")}
+#if(!file.exists("./data")){dir.create("./data")}
 
 # Uncomment these two lines if you want to re-download the data.  The data will need to be manually uncompressed.
 
