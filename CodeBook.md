@@ -50,6 +50,8 @@ The following files were used in this analysis:
 - activity_labels.txt
 - features.txt
 
+The README.md file also contains information on how data was transformed in this project.
+
 ## Data Layouts ##
 
 HAR_data_smry
