@@ -7,7 +7,7 @@ There are three files:
 
 ### Overview ###
 
-This process takes the IC Irvine Machine Learning Repository data for Human Activity Recognition Using Smartphones Data Set, performs some analysis and creates a Tidy Data Set with the average of each variable for each activity and each subject in the study.
+This process takes the UC Irvine Machine Learning Repository data for Human Activity Recognition Using Smartphones Data Set, performs some analysis and creates a Tidy Data Set with the average of each variable for each activity and each subject in the study.
 
 The analysis pulls from the following soure files:
 - 'activity_labels.txt': Links the class labels with their activity name.
@@ -19,9 +19,9 @@ The analysis pulls from the following soure files:
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-Columns are renamed to be decriptive and consistent, with measurement data names pulled from the features data and special symbolds removed/replaced to make columns easier to work in the R environment,  Parentesis are removed and dashes are changed to underscores.
+Columns are renamed to be decriptive and consistent, with measurement data names pulled from the features data and special symbolds removed/replaced to make columns easier to work in the R environment.  Parenthesis are removed and dashes are changed to underscores.
 
-Subject data is renamed to Subject_Id and Activity data adds the descriptive activity text to Activity_Desc and uses Activity_Id to name the raw activity data.
+Subject data is renamed to Subject_Id and Activity data adds the descriptive activity text to the Activity_Desc column and uses Activity_Id to name the raw activity data.
 
 A column named Record_Source_Cd is added to the larger data set to identify if the record was sourced from the Test data or the Training data.  This column is not included in the final tidy data set.
 
@@ -39,5 +39,7 @@ The R script requires the following to run:
 - source data downloaded and uncompressed to ./data/UCI HAR Dataset
 
 Lines may be uncommented to download the source data in the script but it will still need to be manually uncompressed.
+
+Execute the run_analysus.R script in the R environment.
 
 
